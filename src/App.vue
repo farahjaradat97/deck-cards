@@ -82,7 +82,7 @@ const iconClasses = (set: string) => {
       >
         <div
           v-if="deck[set].length"
-          class="flex flex-wrap xl:flex-nowrap gap-2 justify-center items-center"
+          class="flex flex-wrap gap-2 justify-center items-center"
         >
           <div
             v-for="card in deck[set]"
